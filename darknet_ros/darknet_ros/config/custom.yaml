@@ -1,0 +1,22 @@
+yolo_model:
+
+  config_file:
+    name: yolo-obj.cfg
+  weight_file:
+    name: yolo-obj_40000_8_24.weights
+  threshold:
+    value: 0.5
+  detection_classes:
+    names:
+      - circle
+      - one
+      - two
+      - three
+      - four
+      - five
+      - six
+      - seven
+      - eight
+      - nine
+      - ten
+      
